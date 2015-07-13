@@ -1,0 +1,23 @@
+<template name="room">
+    {{#ionModal customTemplate=true}}
+
+            <div class="bar bar-header bar-positive">
+                <h2 class="title">{{name}}</h2>
+                <button data-dismiss="modal" class="button button-icon"><i class="icon ion-ios-close-empty"></i>
+                </button>
+            </div>
+            {{#ionContent class="scroll-bottom-wrapper"}}
+                {{#if Template.subscriptionsReady}}
+                    {{#each messages}}
+                        {{> messageItem}}
+                    {{/each}}
+                {{else}}
+                    Loading
+                {{/if}}
+            {{/ionContent}}
+            {{#ionFooterBar class="bar-assertive"}}
+                <input type="text" placeholder="Message" id="message">
+            {{/ionFooterBar}}
+
+    {{/ionModal}}
+</template>

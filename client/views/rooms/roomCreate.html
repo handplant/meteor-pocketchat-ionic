@@ -1,0 +1,23 @@
+<template name="roomCreate">
+    {{#ionModal customTemplate=true}}
+        {{#ionView}}
+            <div class="bar bar-header bar-positive">
+                <h2 class="title">New room</h2>
+                <button data-dismiss="modal" class="button button-icon"><i class="icon ion-ios-close-empty"></i>
+                </button>
+            </div>
+            {{#ionContent}}
+                <div class="list">
+                    <label class="item item-input">
+                        <input type="text" id="room" placeholder="Room name">
+                    </label>
+                </div>
+                <div class="padding">
+                    <button class="button button-block button-stable create-room">
+                        Submit room
+                    </button>
+                </div>
+            {{/ionContent}}
+        {{/ionView}}
+    {{/ionModal}}
+</template>

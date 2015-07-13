@@ -1,0 +1,26 @@
+<template name="rooms">
+    {{#contentFor "headerTitle"}}
+        <h1 class="title">Rooms</h1>
+    {{/contentFor}}
+    {{#contentFor "headerButtonRight"}}
+        <a href="/userAccounts" class="button button-clear pull-right">
+            {{> ionIcon icon='person'}}
+        </a>
+    {{/contentFor}}
+    {{#contentFor "headerButtonLeft"}}
+        {{#if currentUser}}
+            <a href="#" class="button button-clear pull-left add-room">
+                {{> ionIcon icon='plus'}}
+            </a>
+        {{/if}}
+    {{/contentFor}}
+    {{#ionView}}
+        {{#ionContent}}
+            {{#ionList}}
+                {{#each rooms}}
+                    {{> roomItem}}
+                {{/each}}
+            {{/ionList}}
+        {{/ionContent}}
+    {{/ionView}}
+</template>

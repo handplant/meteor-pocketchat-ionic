@@ -1,0 +1,17 @@
+<template name="layout">
+    {{#ionBody}}
+        {{> ionNavBar class="bar-positive"}}
+        {{#ionNavView}}
+            {{> yield}}
+        {{/ionNavView}}
+    {{/ionBody}}
+</template>
+
+<template name="loading">
+    {{#ionView}}
+        {{#ionContent}}
+            {{> spinner}}
+        {{/ionContent}}
+    {{/ionView}}
+</template>
+

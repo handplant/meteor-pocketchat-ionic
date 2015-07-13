@@ -1,0 +1,58 @@
+//---------------------------------------------//
+// Variables - Outline
+// all variables...
+// Docs - http://outlinecss.co.uk/get-started.html#variables
+//---------------------------------------------//
+
+// html
+$html-font-base: 80%; // 16px
+$font-base: 1rem; // 16px
+$spacing: 1.5rem; // 24px
+
+// Fonts
+$font-primary: 'Open Sans', sans-serif; // body font
+$font-secondary: 'Open Sans', sans-serif; // title font
+$font-monospace: Monaco, Consolas, 'Lucida Console', monospace;
+
+// Colours
+$color-primary: #243040;
+$color-secondary: #9cb3a8;
+$color-secondary-light: #b0c2b9;
+$color-tertiary: #fcee21;
+$color-grey: #a1acb5;
+$color-grey-light: #dce8ef;
+$color-grey-dark: #333;
+
+// Placeholder text colour
+$placeholder-text: $color-grey;
+
+// Button text color
+$btn-text-color: #fff;
+$btn-text-color-alt: $color-grey-dark;
+
+// IONIC
+$positive: #DE4F4F;
+$loading-font-size: 22px;
+
+.ion-slide {
+  text-align: center;
+  padding-top: 200px;
+
+  &.dark-bg {
+    h3 {
+      color: #fff;
+    }
+  }
+}
+
+.popover {
+  height: auto;
+}
+
+.item-button-left, .item-button-right {
+  button {
+    top: 16px !important;
+  }
+}
+
+
