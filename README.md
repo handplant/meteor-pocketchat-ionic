@@ -1,15 +1,12 @@
 # PocketChat (Ionic)
 
-PocketChat ist ein einfacher "Chat".
+PocketChat is a simple Meteor chat app illustrating how to utilize the Iconic UI Framework with [Meteor](http://meteor.com). 
 
-PocketChat ist mit [Meteor](http://meteor.com) umgesetzt und gleichzeitig ein Übungsprojekt um Meteor zu lernen.
-
-PocketChat ist kostenlos und Open Source.
 
 #####Demo:
 [pocketchat-ionic.meteor.com](http://pocketchat-ionic.meteor.com/)
 
-#####Folgende Packages sind bis jetzt im Einsatz:
+#####Packages:
 
 - meteor-platform
 - accounts-password
@@ -24,6 +21,3 @@ PocketChat ist kostenlos und Open Source.
 - useraccounts:ionic
 - reactive-var
 - sacha:spin
-
-#####Achtung:
-PocketChat ist im Beta Status. Benutzung auf eigene Gefahr :)
