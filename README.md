@@ -1,4 +1,5 @@
-# PocketChat (Ionic)
+# PocketChat
+## Meteor - Blaze - Ionic
 
 PocketChat is a simple Meteor chat app illustrating how to utilize the Iconic UI Framework with [Meteor](http://meteor.com). 
 
