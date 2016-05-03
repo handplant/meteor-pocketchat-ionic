@@ -4,9 +4,6 @@
 PocketChat is a simple Meteor chat app illustrating how to utilize the Iconic UI Framework with [Meteor](http://meteor.com). 
 
 
-#####Demo:
-[pocketchat-ionic.meteor.com](http://pocketchat-ionic.meteor.com/)
-
 #####Packages:
 
 - meteor-platform
